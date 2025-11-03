@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMS - Student Management System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Student Management System</h2>
+
+      <input id="name" class="stuData" type="text" placeholder="Full Name:" />
+      <input id="className" class="stuData" type="text" placeholder="Class:" />
+      <input id="rollNo" class="stuData" type="number" placeholder="RollNo:" />
+      <input id="age" class="stuData" type="number" placeholder="Age:" />
+      <input id="gender" class="stuData" type="text" placeholder="Gender:" />
+      <input
+        id="contact"
+        class="stuData"
+        type="number"
+        placeholder="Contact Number:"
+      />
+      <input id="email" class="stuData" type="email" placeholder="Email:" />
+
+      <button class="submitBtn" onclick="addStudent()">Add Student</button>
+    </div>
+
+    <div class="cardsContainer" id="cardsContainer"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

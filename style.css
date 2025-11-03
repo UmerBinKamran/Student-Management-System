@@ -1,0 +1,92 @@
+body {
+  background-color: #eaf4ff;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 400px;
+  padding: 30px;
+  border-radius: 15px;
+  border: 2px solid #1e88e5;
+  box-shadow: 0 4px 10px rgba(30, 136, 229, 0.2);
+
+  margin: 60px auto;
+  text-align: center;
+}
+
+.container h2 {
+  color: #1565c0;
+  margin-bottom: 20px;
+}
+
+.stuData {
+  width: 90%;
+  height: 35px;
+  margin: 8px 0;
+  padding: 5px 10px;
+  border: 1px solid #90caf9;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.stuData:focus {
+  border-color: #1e88e5;
+  outline: none;
+  box-shadow: 0 0 6px rgba(30, 136, 229, 0.4);
+}
+
+.submitBtn {
+  margin-top: 15px;
+  width: 95%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1e88e5;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submitBtn:hover {
+  background-color: #64b5f6;
+  color: #0d47a1;
+  box-shadow: 0 4px 8px rgba(100, 181, 246, 0.4);
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 50px 60px;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 250px;
+  border-radius: 10px;
+  border: 1.5px solid #90caf9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 15px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(30, 136, 229, 0.2);
+}
+
+.card h3 {
+  color: #1565c0;
+  margin: 5px 0;
+}
+
+.card p {
+  font-size: 14px;
+  color: #333;
+  margin: 3px 0;
+}
