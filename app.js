@@ -2,21 +2,21 @@ var students = [];
 
 function addStudent() {
   var name = document.getElementById("name").value;
-  var className = document.getElementById("className").value;
+  var course = document.getElementById("course").value;
   var rollNo = document.getElementById("rollNo").value;
   var age = document.getElementById("age").value;
   var gender = document.getElementById("gender").value;
   var contact = document.getElementById("contact").value;
   var email = document.getElementById("email").value;
 
-  if (name === "" || className === "" || rollNo === "") {
-    alert("Please fill in at least Name, Class, and Roll No.");
+  if (name === "" || rollNo === "") {
+    alert("Please fill in at least Name and Roll No.");
     return;
   }
 
   var student = {
     name: name,
-    className: className,
+    course: course,
     rollNo: rollNo,
     age: age,
     gender: gender,

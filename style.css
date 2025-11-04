@@ -1,5 +1,5 @@
 body {
-  background-color: #eaf4ff;
+  background-color: #f3e5f5;
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
@@ -10,15 +10,14 @@ body {
   width: 400px;
   padding: 30px;
   border-radius: 15px;
-  border: 2px solid #1e88e5;
-  box-shadow: 0 4px 10px rgba(30, 136, 229, 0.2);
-
+  border: 2px solid #6a1b9a;
+  box-shadow: 0 4px 10px rgba(106, 27, 154, 0.2);
   margin: 60px auto;
   text-align: center;
 }
 
 .container h2 {
-  color: #1565c0;
+  color: #6a1b9a;
   margin-bottom: 20px;
 }
 
@@ -27,16 +26,16 @@ body {
   height: 35px;
   margin: 8px 0;
   padding: 5px 10px;
-  border: 1px solid #90caf9;
+  border: 1px solid #ce93d8;
   border-radius: 8px;
   font-size: 14px;
   transition: 0.3s;
 }
 
 .stuData:focus {
-  border-color: #1e88e5;
+  border-color: #ab47bc;
   outline: none;
-  box-shadow: 0 0 6px rgba(30, 136, 229, 0.4);
+  box-shadow: 0 0 6px rgba(171, 71, 188, 0.4);
 }
 
 .submitBtn {
@@ -45,31 +44,31 @@ body {
   padding: 10px;
   border: none;
   border-radius: 8px;
-  background-color: #1e88e5;
-  color: white;
+  background-color: #6a1b9a;
+  color: #fbc02d;
   font-weight: 600;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .submitBtn:hover {
-  background-color: #64b5f6;
-  color: #0d47a1;
-  box-shadow: 0 4px 8px rgba(100, 181, 246, 0.4);
+  background-color: #8e24aa;
+  color: #fff3e0;
+  box-shadow: 0 4px 8px rgba(142, 36, 170, 0.4);
 }
-
 .cardsContainer {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
   margin: 50px 60px;
+  justify-content: center;
 }
 
 .card {
   background-color: #ffffff;
   width: 250px;
   border-radius: 10px;
-  border: 1.5px solid #90caf9;
+  border: 1.5px solid #ce93d8;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   padding: 15px;
   transition: 0.3s;
@@ -77,11 +76,11 @@ body {
 
 .card:hover {
   transform: scale(1.03);
-  box-shadow: 0 4px 12px rgba(30, 136, 229, 0.2);
+  box-shadow: 0 4px 12px rgba(106, 27, 154, 0.2);
 }
 
 .card h3 {
-  color: #1565c0;
+  color: #6a1b9a;
   margin: 5px 0;
 }
 
@@ -89,4 +88,21 @@ body {
   font-size: 14px;
   color: #333;
   margin: 3px 0;
+}
+
+.card button {
+  margin-top: 8px;
+  background-color: #fbc02d;
+  color: #4a148c;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  background-color: #fdd835;
+  color: #311b92;
+  box-shadow: 0 3px 6px rgba(251, 192, 45, 0.3);
 }
